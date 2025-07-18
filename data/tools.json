@@ -1,0 +1,269 @@
+[
+  {
+    "id": "thehive",
+    "name": "TheHive",
+    "url": "https://github.com/TheHive-Project/TheHive",
+    "category": "Blue Team",
+    "tags": [
+      "IR",
+      "SIEM",
+      "SOC"
+    ],
+    "description": "Scalable security incident response platform."
+  },
+  {
+    "id": "ghidra",
+    "name": "Ghidra",
+    "url": "https://github.com/NationalSecurityAgency/ghidra",
+    "category": "Malware Analysis",
+    "tags": [
+      "Reverse Engineering",
+      "Decompiler"
+    ],
+    "description": "NSA's open-source reverse engineering suite.",
+    "extra": {
+      "review": "https://blog.example.com/review-ghidra",
+      "video": "https://youtube.com/watch?v=abc123"
+    }
+  },
+  {
+    "id": "wireshark",
+    "name": "Wireshark",
+    "url": "https://www.wireshark.org/",
+    "category": "Network Analysis",
+    "tags": ["Packet Capture", "Analysis"],
+    "description": "A network protocol analyzer.",
+    "extra": {
+      "docs": "https://www.wireshark.org/docs/",
+      "tutorial": "https://youtube.com/some-wireshark-video"
+    }
+  },
+  {
+    "id": "idapro",
+    "name": "IDA Pro",
+    "url": "https://hex-rays.com/ida-pro/",
+    "category": "Malware Analysis",
+    "tags": ["Reverse Engineering", "Disassembler", "Debugger"],
+    "description": "Powerful multi-processor disassembler and debugger for reverse engineering.",
+    "extra": {
+      "docs": "https://hex-rays.com/products/ida/support/",
+      "video": "https://www.youtube.com/results?search_query=ida+pro+tutorial"
+    }
+  },
+  {
+    "id": "caldera",
+    "name": "CALDERA",
+    "url": "https://github.com/mitre/caldera",
+    "category": "Red Team",
+    "tags": ["Adversary Simulation", "Automation", "MITRE ATT&CK"],
+    "description": "Automated adversary emulation system developed by MITRE to run security assessments.",
+    "extra": {
+      "docs": "https://caldera.readthedocs.io/",
+      "video": "https://www.youtube.com/results?search_query=mitre+caldera"
+    }
+  },
+  {
+    "id": "imhex",
+    "name": "ImHex",
+    "url": "https://github.com/WerWolv/ImHex",
+    "category": "Binary Analysis",
+    "tags": ["Hex Editor", "Binary", "Visualization"],
+    "description": "A modern and powerful hex editor for reverse engineers and binary analysis.",
+    "extra": {
+      "docs": "https://imhex.werwolv.net/docs/",
+      "video": "https://www.youtube.com/results?search_query=imhex+hex+editor"
+    }
+  },
+  {
+    "id": "hxd",
+    "name": "HxD",
+    "url": "https://mh-nexus.de/en/hxd/",
+    "category": "Binary Analysis",
+    "tags": ["Hex Editor", "Binary"],
+    "description": "Freeware hex editor with raw disk editing, RAM editing, and data analysis tools.",
+    "extra": {
+      "docs": "https://mh-nexus.de/en/hxd/",
+      "video": "https://www.youtube.com/results?search_query=hxd+hex+editor"
+    }
+  },
+  {
+    "id": "pebear",
+    "name": "PE-bear",
+    "url": "https://github.com/hasherezade/pe-bear",
+    "category": "Malware Analysis",
+    "tags": ["PE Analysis", "Windows", "Reverse Engineering"],
+    "description": "PE-bear is a reversing tool for inspecting Portable Executable files on Windows.",
+    "extra": {
+      "docs": "https://github.com/hasherezade/pe-bear/wiki",
+      "video": "https://www.youtube.com/results?search_query=pe+bear+malware+analysis"
+    }
+  },
+  {
+    "id": "gdb",
+    "name": "GDB",
+    "url": "https://www.gnu.org/software/gdb/",
+    "category": "Debugging",
+    "tags": ["Debugger", "C/C++", "Reverse Engineering"],
+    "description": "GDB is the GNU Project debugger that allows you to see what is going on inside a program while it runs or crashes.",
+    "extra": {
+      "docs": "https://sourceware.org/gdb/current/onlinedocs/gdb/",
+      "video": "https://www.youtube.com/results?search_query=gdb+debugger+tutorial"
+    }
+  },
+  {
+    "id": "pestudio",
+    "name": "PEStudio",
+    "url": "https://www.winitor.com/",
+    "category": "Malware Analysis",
+    "tags": ["PE Analysis", "Windows", "Static Analysis"],
+    "description": "PEStudio is a static analysis tool for analyzing executable files without running them.",
+    "extra": {
+      "docs": "https://www.winitor.com/documentation.html",
+      "video": "https://www.youtube.com/results?search_query=pestudio+malware+analysis"
+    }
+  },
+  {
+    "id": "opencve",
+    "name": "OpenCVE",
+    "url": "https://github.com/opencve/opencve",
+    "category": "Vulnerability Intelligence",
+    "tags": ["CVE", "Vulnerability", "Dashboard", "Security Monitoring"],
+    "description": "OpenCVE is an open-source platform to track, filter and visualize CVE vulnerabilities from the NVD database.",
+    "extra": {
+      "docs": "https://docs.opencve.io/",
+      "video": "https://www.youtube.com/results?search_query=opencve+tutorial"
+    }
+  },
+  {
+    "id": "metasploit",
+    "name": "Metasploit Framework",
+    "url": "https://github.com/rapid7/metasploit-framework",
+    "category": "Red Team",
+    "tags": ["Exploitation", "Penetration Testing", "Payloads", "Post Exploitation"],
+    "description": "Metasploit Framework is a powerful open-source platform for developing, testing, and executing exploit code.",
+    "extra": {
+      "docs": "https://docs.metasploit.com/",
+      "video": "https://www.youtube.com/results?search_query=metasploit+tutorial"
+    }
+  },
+  {
+    "id": "networkminer",
+    "name": "NetworkMiner",
+    "url": "https://www.netresec.com/?page=NetworkMiner",
+    "category": "Network Analysis",
+    "tags": ["Packet Analysis", "Passive Monitoring", "Forensics", "PCAP"],
+    "description": "NetworkMiner is a network forensic analysis tool for Windows that can parse PCAP files and extract artifacts like files, credentials, and sessions.",
+    "extra": {
+      "docs": "https://www.netresec.com/?page=NetworkMiner",
+      "video": "https://www.youtube.com/results?search_query=networkminer+tutorial"
+    }
+  },
+  {
+    "id": "nmap",
+    "name": "Nmap",
+    "url": "https://nmap.org/",
+    "category": "Network Scanning",
+    "tags": ["Port Scanning", "Discovery", "Enumeration"],
+    "description": "Nmap is a free and open-source network scanner for network discovery and security auditing.",
+    "extra": {
+      "docs": "https://nmap.org/book/",
+      "video": "https://www.youtube.com/results?search_query=nmap+tutorial"
+    }
+  },
+  {
+    "id": "burpsuite",
+    "name": "Burp Suite Community",
+    "url": "https://portswigger.net/burp",
+    "category": "Web Security",
+    "tags": ["Web Testing", "Proxy", "Scanner"],
+    "description": "Burp Suite is a powerful platform for testing web application security.",
+    "extra": {
+      "docs": "https://portswigger.net/burp/documentation",
+      "video": "https://www.youtube.com/results?search_query=burp+suite+tutorial"
+    }
+  },
+  {
+    "id": "osquery",
+    "name": "osquery",
+    "url": "https://github.com/osquery/osquery",
+    "category": "Endpoint Monitoring",
+    "tags": ["Telemetry", "EDR", "SQL"],
+    "description": "osquery is a SQL-based operating system instrumentation framework for endpoint visibility.",
+    "extra": {
+      "docs": "https://osquery.readthedocs.io/",
+      "video": "https://www.youtube.com/results?search_query=osquery+tutorial"
+    }
+  },
+  {
+    "id": "zaproxy",
+    "name": "OWASP ZAP",
+    "url": "https://www.zaproxy.org/",
+    "category": "Web Security",
+    "tags": ["Web Testing", "Proxy", "Active Scan"],
+    "description": "ZAP is an open-source web application security scanner maintained by the OWASP foundation.",
+    "extra": {
+      "docs": "https://www.zaproxy.org/docs/",
+      "video": "https://www.youtube.com/results?search_query=owasp+zap+tutorial"
+    }
+  },
+  {
+    "id": "velociraptor",
+    "name": "Velociraptor",
+    "url": "https://github.com/Velocidex/velociraptor",
+    "category": "Incident Response",
+    "tags": ["DFIR", "EDR", "Hunting"],
+    "description": "Velociraptor is a tool for endpoint visibility, live forensics, and incident response.",
+    "extra": {
+      "docs": "https://docs.velociraptor.app/",
+      "video": "https://www.youtube.com/results?search_query=velociraptor+dfir"
+    }
+  },
+  {
+    "id": "yara",
+    "name": "YARA",
+    "url": "https://github.com/VirusTotal/yara",
+    "category": "Malware Analysis",
+    "tags": ["Rule Matching", "Signature", "Threat Detection"],
+    "description": "YARA helps identify and classify malware by creating rules based on textual or binary patterns.",
+    "extra": {
+      "docs": "https://yara.readthedocs.io/",
+      "video": "https://www.youtube.com/results?search_query=yara+malware+analysis"
+    }
+  },
+  {
+    "id": "sigma",
+    "name": "Sigma",
+    "url": "https://github.com/SigmaHQ/sigma",
+    "category": "Detection Engineering",
+    "tags": ["SIEM", "Rules", "Threat Detection"],
+    "description": "Sigma is a generic signature format for SIEM systems to describe log-based detections.",
+    "extra": {
+      "docs": "https://github.com/SigmaHQ/sigma/wiki",
+      "video": "https://www.youtube.com/results?search_query=sigma+rule+tutorial"
+    }
+  },
+  {
+    "id": "gitleaks",
+    "name": "Gitleaks",
+    "url": "https://github.com/gitleaks/gitleaks",
+    "category": "Secrets Scanning",
+    "tags": ["Git", "Secrets", "DevSecOps"],
+    "description": "Gitleaks is a SAST tool for detecting hardcoded secrets like API keys, tokens, and credentials in git repos.",
+    "extra": {
+      "docs": "https://gitleaks.io/",
+      "video": "https://www.youtube.com/results?search_query=gitleaks+tutorial"
+    }
+  },
+  {
+    "id": "mitmproxy",
+    "name": "mitmproxy",
+    "url": "https://mitmproxy.org/",
+    "category": "Web Security",
+    "tags": ["Proxy", "Traffic Inspection", "HTTPS"],
+    "description": "mitmproxy is an interactive HTTPS proxy used for analyzing and manipulating HTTP traffic.",
+    "extra": {
+      "docs": "https://docs.mitmproxy.org/",
+      "video": "https://www.youtube.com/results?search_query=mitmproxy+tutorial"
+    }
+  }
+]
