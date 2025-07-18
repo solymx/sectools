@@ -31,7 +31,7 @@
     "name": "Wireshark",
     "url": "https://www.wireshark.org/",
     "category": "Network Analysis",
-    "tags": ["Packet Capture", "Analysis"],
+    "tags": ["Packet Capture", "PCAP", "Passive Monitoring"],
     "description": "A network protocol analyzer.",
     "extra": {
       "docs": "https://www.wireshark.org/docs/",
