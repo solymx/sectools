@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infosec Tools</title>
+  <link rel="stylesheet" href="style-darkblue.css" />
+  <style>
+    #spinner {
+      display: none;
+      text-align: center;
+      padding: 2rem;
+    }
+    .spinner {
+      border: 4px solid rgba(255, 255, 255, 0.2);
+      border-top: 4px solid #61dafb;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .pagination button {
+      margin: 0 5px;
+      padding: 0.3rem 0.6rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header class="flex">
+    <h1>
+      <img src="https://emojiapi.dev/api/v1/shield/64.png" alt="shield" style="height:1em;vertical-align:middle;">
+      Infosec Tools
+    </h1>
+    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+      <div>
+        <input type="text" id="search" placeholder="Search tools..." />
+        <select id="categoryfilter"></select>
+      </div>
+      <div id="tagfilter" style="display: flex; flex-wrap: wrap; gap: 0.5rem; color: #c9d1d9;"></div>
+    </div>
+  </header>
+
+  <div id="spinner"><div class="spinner"></div></div>
+  <main id="toolList" class="tool-grid"></main>
+  <div id="pagination" class="pagination" style="text-align: center; margin-top: 2rem;"></div>
+
+  <script src="index-script.js"></script>
+</body>
+</html>
